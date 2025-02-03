@@ -8,6 +8,7 @@ const Home = () => {
     minute: "2-digit",
     timeZone: "Asia/Kolkata",
   });
+  const formattedTime = time.replace(/(am|pm)/, (match) => match.toUpperCase());
   const date = new Intl.DateTimeFormat("en-IN", {
     dateStyle: "full",
     timeZone: "Asia/Kolkata",
