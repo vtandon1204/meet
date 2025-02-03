@@ -8,6 +8,7 @@ const Home = () => {
     minute: "2-digit",
     timeZone: "Asia/Kolkata",
   });
+  const formattedTime = time.replace(/(am|pm)/, (match) => match.toUpperCase());
   const date = new Intl.DateTimeFormat("en-IN", {
     dateStyle: "full",
     timeZone: "Asia/Kolkata",
@@ -21,7 +22,7 @@ const Home = () => {
             Upcoming Meeting at: 12:30 PM
           </h2> */}
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl font-semibold lg:text-7xl">{time}</h1>
+            <h1 className="text-4xl font-semibold lg:text-7xl">{formattedTime}</h1>
             <p className="text-lg font-medium text-sky-1 lg:text-2xl">{date}</p>
           </div>
         </div>
