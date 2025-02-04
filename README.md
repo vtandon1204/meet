@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meet
 
-## Getting Started
+A web-based video conferencing application that enables seamless virtual meetings, screen sharing, and real-time messaging.
 
-First, run the development server:
+## Features
+- **Video Conferencing**: High-quality video calls with multiple participants.
+- **Screen Sharing**: Share your screen with others for presentations or collaboration.
+- **User Authentication**: Secure login and user management.
+- **Room Management**: Create, join, and manage meeting rooms.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vtandon1204/meet.git
+   cd meet
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
+- Open the application in your browser.
+- Sign in or create an account.
+- Start a new meeting or join an existing one.
+- Enable camera and microphone permissions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to your fork:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Create a pull request.
 
-## Learn More
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/vtandon1204/meet/blob/main/LICENSE) file for details.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For any inquiries or issues, feel free to reach out or open an issue in the repository.
